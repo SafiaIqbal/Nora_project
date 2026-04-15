@@ -346,10 +346,10 @@ body {
 .donateBtn {
   margin-top: 10px;
   padding: 8px 16px;
-  background: #dc233f;
+  background: #355872;
   border: none;
   color: #fff;
-  border-radius: 4px;
+  border-radius: 50px;
 }
 
 .footerBottom {
