@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Coming Soon</title>
-    <link rel="stylesheet" href="dari.css">
+     <!-- ✅ Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="dari.css">
 </head>
 <body>
+
+    <!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg bg-white shadow">
+  <div class="container">
+
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.jpg" style="width: 90px" alt="logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav gap-3">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+
+   <a class="donate-btn d-none d-lg-flex align-items-center gap-2" href="#">
+  <i class="fa-regular fa-heart"></i>
+  Donate
+</a>
+
+  </div>
+</nav>
 
 <section class="coming-soon">
   <div class="bg">
@@ -23,6 +59,57 @@
     </span>
   </h1>
 </section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+
+  <section class="section9">
+    <div class="container">
+      <div class="footerContainer">
+        <div class="footerBox">
+          <h2>NORA Online Academy</h2>
+          <p>Online education for Afghan students worldwide.</p>
+        </div>
+
+        <div class="footerBox">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footerBox">
+          <h3>Programs</h3>
+          <ul>
+            <li>English</li>
+            <li>Quran</li>
+            <li>Computer</li>
+            <li>Math</li>
+          </ul>
+        </div>
+
+        <div class="footerBox">
+          <h3>Contact</h3>
+          <p>Email: info@noraacademy.com</p>
+          <button class="donateBtn">Donate</button>
+</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="footerBottom">
+    <p>© 2026 NORA Online Academy | All Rights Reserved</p>
+  </div>
+
+</footer>
+
+<!-- ================= BOOTSTRAP JS ================= -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

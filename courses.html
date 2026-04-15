@@ -1,184 +1,217 @@
 <!DOCTYPE html>
-  <html lang="en">
+<html lang="en">
 
-  <head>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Our Courses</title>
 
+  <!-- ✅ Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+  <!-- Your CSS -->
   <link rel="stylesheet" href="style.css">
+</head>
 
-  </head>
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <body>
+<body>
 
-  <header class="navbar">
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg bg-white shadow">
+  <div class="container">
 
-  <div class="nav-container">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.jpg" style="width: 90px" alt="logo">
+    </a>
 
-  <div class="logo">
-  <img src="images/logo.jpg" alt="logo">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav gap-3">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+
+   <a class="donate-btn d-none d-lg-flex align-items-center gap-2" href="#">
+  <i class="fa-regular fa-heart"></i>
+  Donate
+</a>
+
   </div>
+</nav>
 
-  <input type="checkbox" id="menu-toggle">
+<!-- ================= HERO ================= -->
+<header class="hero-header">
+  <video autoplay muted loop class="hero-video">
+    <source src="video/4.mp4" type="video/mp4">
+  </video>
 
-  <nav class="menu">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="courses.html">Courses</a>
-  <a href="contact.html">Contact</a>
-  </nav>
+  <div class="hero-overlay"></div>
+  <div class="hero-grid"></div>
 
-  <div class="donate">
-  <a href="#">Donate ♡</a>
-  </div>
-
-  <label for="menu-toggle" class="hamburger">☰</label>
-
-  </div>
-
-  </header>
-
-  <header class="hero-header">
-    <video autoplay muted loop class="hero-video">
-      <source src="video/4.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-
-    <!-- gradient overlay -->
-    <div class="hero-overlay"></div>
-
-    <!-- grid overlay -->
-    <div class="hero-grid"></div>
-
-    <!-- content on top -->
-    <div class="hero-content">
-      <h1>Learn With Experts</h1>
-      <p>From basic to advanced calses</p>
-    
+  <div class="hero-content">
+    <h1>Learn With Experts</h1>
+    <p>From basic to advanced classes</p>
     <a href="#" class="btn-contact">Contact</a>
   </div>
-    </div>
-  </header>
+</header>
 
-  <section class="about-section">
+<!-- ================= ABOUT ================= -->
+<section class="about-section">
+  <div class="about-container">
+    <h2>About Our Courses</h2>
+    <p>
+      Our courses are designed to help you learn practical, in-demand skills with a clear and simple approach. We focus on high-quality content, real-world examples, and step-by-step learning to ensure your success. Whether you are a beginner or looking to improve your skills, our learning programs are built to guide you from basics to advanced level in a structured and effective way.
+    </p>
+  </div>
+</section>
 
-    <div class="about-container">
+<!-- ================= COURSES ================= -->
+<section class="courses">
 
-        <h2>About Our Courses</h2>
+  <div class="card">
+    <img src="images/quran.jpg">
+    <h3>Quran With Tajweed</h3>
+    <p>Learn Quran reading with Tajweed rules.</p>
+    <a href="quran.html">Read More →</a>
+  </div>
 
-        <p>
-            Our courses are designed to help you learn practical, in-demand skills
-            with a clear and simple approach. We focus on high-quality content,
-            real-world examples, and step-by-step learning to ensure your success.
-        </p>
+  <div class="card">
+    <img src="images/mathematics.jpg">
+    <h3>Mathematics Course</h3>
+    <p>Improve problem solving skills.</p>
+    <a href="mathematics.html">Read More →</a>
+  </div>
 
-        <p>
-            Whether you are a beginner or looking to improve your skills, our
-            learning programs are built to guide you from basics to advanced level
-            in a structured and effective way.
-        </p>
+  <div class="card">
+    <img src="images/computer.jpg">
+    <h3>Computer Course</h3>
+    <p>Learn essential computer skills.</p>
+    <a href="computer.html">Read More →</a>
+  </div>
 
-    </div>
+  <div class="card">
+    <img src="images/111.jpg">
+    <h3>English Course</h3>
+    <p>Build strong reading, writing, speaking, and listening skills to communicate confidently in English.</p>
+    <a href="english.html">Read More →</a>
+  </div>
+
+
+ <div class="card">
+    <img src="images/dari.jpg">
+    <h3>Dari Course</h3>
+    <p>Build strong reading, writing, speaking, and listening skills to communicate confidently in Dari.</p>
+    <a href="dari.html">Read More →</a>
+  </div>
+
+   <div class="card">
+    <img src="images/09.jpg">
+    <h3>Pashto Course</h3>
+    <p>Build fluency and confidence in Pashto through structured and engaging lessons.</p>
+    <a href="pashto.html">Read More →</a>
+  </div>
 
 </section>
 
-  <section class="courses">
-    
-  <div class="card">
-  <img src="images/quran.jpg">
-  <h3>Quran With Tajweed</h3>
-  <p>Build strong reading, writing, speaking, and listening skills to communicate confidently in English.</p>
-  <a href="quran.html">Read More →</a>
-  </div>
+<!-- ================= PROGRAMS ================= -->
+<section class="programs">
+  <h2>Our Course Programs</h2>
 
-  <div class="card">
-  <img src="images/mathematics.jpg">
-  <h3>Mathematics Course</h3>
-  <p>Develop problem-solving abilities and a clear understanding of key mathematical concepts.</p>
-  <a href="mathematics.html">Read More →</a>
-  </div>
+  <div class="cards">
 
-  <div class="card">
-  <img src="images/computer.jpg">
-  <h3>Computer Course</h3>
-  <p>Gain essential computer skills and digital knowledge for success in today’s modern world.</p>
-  <a href="computer.html">Read More →</a>
-  </div>
-
-  <div class="card">
-  <img src="images/111.jpg">
-  <h3>English Course</h3>
-  <p>Build strong reading, writing, speaking, and listening skills to communicate confidently in English.</p>
-  <a href="english.html">Read More →</a>
-  </div>
-
-  <div class="card">
-  <img src="images/dari.jpg">
-  <h3>Dari Course</h3>
-  <p>Improve your speaking, reading, and writing skills in Dari with practical learning.</p>
-  <a href="dari.html">Read More →</a>
-  </div>
-
-  <div class="card">
-  <img src="images/09.jpg">
-  <h3>Pashto Course</h3>
-  <p>Build fluency and confidence in Pashto through structured and engaging lessons.</p>
-  <a href="pashto.html">Read More →</a>
-  </div>
-
-  </section>
-  
-
-  <section class="programs">
-    <h2>Our Course Programs</h2>
-
-    <div class="cards">
-      
-      <div class="card">
-        <div class="img-box">
-          <img src="images/photo_2026-04-03_14-25-12.jpg" alt="">
-        </div>
-        <div class="card-content">
-          <h3>Quran Courses</h3>
-          <p>
-            Help your child in building a meaningful connection with Quran through Tajweed,
-            understanding its verses, and memorizing short Surahs with Afghan teachers.
-          </p>
-          <a href="quran.html">Discover More</a>
-        </div>
+    <div class="card">
+      <div class="img-box">
+        <img src="images/photo_2026-04-03_14-25-12.jpg">
       </div>
-      <div class="card">
-        <div class="img-box">
-          <img src="images/photo_2026-04-03_14-25-06.jpg" alt="">
-        </div>
-        <div class="card-content">
-          <h3>Dari & Pashto Courses</h3>
-          <p>
-            Language shapes identity—children develop reading, writing, and speaking skills in Dari or Pashto while
-            discovering Afghan stories, values, and culture.
-          </p>
-          <a href="dari.html">Discover More</a>
-        </div>
+      <div class="card-content">
+        <h3>Quran Courses</h3>
+        <p>Help your child in building a meaningful connection with Quran through Tajweed, understanding its verses, and memorizing short Surahs with Afghan teachers.L</p>
+        <a href="quran.html">Discover More</a>
       </div>
+    </div>
 
-      <div class="card">
-        <div class="img-box">
-          <img src="images/photo_2026-04-03_14-25-16.jpg" alt="">
-        </div>
-        <div class="card-content">
-          <h3>Ethics & Mentoring Program</h3>
-          <p>
-            Nora Academy’s foundation—shaping character through Islamic values,
-            emotional intelligence, and cultural awareness.
-          </p>
-          <a href="courses.html">Discover More</a>
-        </div>
+    <div class="card">
+      <div class="img-box">
+        <img src="images/photo_2026-04-03_14-25-06.jpg">
       </div>
+      <div class="card-content">
+        <h3>Dari & Pashto Courses</h3>
+        <p>Language shapes identity—children develop reading, writing, and speaking skills in Dari or Pashto while discovering Afghan stories,and culture.</p>
+        <a href="dari.html">Discover More</a>
+      </div>
+    </div>
 
+    <div class="card">
+      <div class="img-box">
+        <img src="images/photo_2026-04-03_14-25-16.jpg">
+      </div>
+      <div class="card-content">
+        <h3>Ethics & Mentoring Program</h3>
+        <p>Nora Academy’s foundation—shaping character through Islamic values, emotional intelligence, cultural awareness and values.</p>
+        <a href="courses.html">Discover More</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+
+  <section class="section9">
+    <div class="container">
+      <div class="footerContainer">
+        <div class="footerBox">
+          <h2>NORA Online Academy</h2>
+          <p>Online education for Afghan students worldwide.</p>
+        </div>
+
+        <div class="footerBox">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footerBox">
+          <h3>Programs</h3>
+          <ul>
+            <li>English</li>
+            <li>Quran</li>
+            <li>Computer</li>
+            <li>Math</li>
+          </ul>
+        </div>
+
+        <div class="footerBox">
+          <h3>Contact</h3>
+          <p>Email: info@noraacademy.com</p>
+          <button class="donateBtn">Donate</button>
+        </div>
+
+      </div>
     </div>
   </section>
 
-  </body>
-  </html>
+  <div class="footerBottom">
+    <p>© 2026 NORA Online Academy | All Rights Reserved</p>
+  </div>
+
+</footer>
+
+<!-- ================= BOOTSTRAP JS ================= -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
