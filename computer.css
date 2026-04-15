@@ -214,7 +214,6 @@ body{
     color:white;
 }
 
-
 .enroll-contact-section {
   max-width: 1000px;
   margin: 0 auto;
@@ -246,7 +245,7 @@ body{
   box-shadow: 0 8px 15px rgba(0,0,0,0.1);
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* چپ‌چین کردن محتوا */
+  align-items: flex-start;
   text-align: left;
   transition: box-shadow 0.3s ease;
   cursor: pointer;
@@ -277,7 +276,7 @@ body{
 .card-content p {
   font-size: 15px;
   color: #444;
-  margin-bottom: 30px; /* فاصله بیشتر زیر پاراگراف */
+  margin-bottom: 30px; 
 }
 
 .card-content button {
@@ -296,7 +295,6 @@ body{
   color: white;
   border-color: #3b82a0;
 }
-
 
 
 
@@ -354,12 +352,12 @@ color:#2a7de1;
   }
 
   .logo {
-    order: 1; /* سمت چپ */
+    order: 1; 
   }
 
   .hamburger {
     display: block;
-    order: 2; /* سمت راست */
+    order: 2; 
   }
 
   .menu {
@@ -420,34 +418,34 @@ color:#2a7de1;
 /* ===== METHOD MOBILE ===== */
 @media (max-width: 768px) {
     .method {
-        flex-direction: column; /* متن بالای عکس */
+        flex-direction: column; 
         text-align: center;
         padding: 40px 5%;
     }
 
     .method-left,
     .method-right {
-        width: 100%; /* هر دو کل عرض را بگیرند */
+        width: 100%; 
     }
 
     .method-right img {
         display: block;
         width: 90%;
         height: auto;
-        margin: 20px auto 0; /* عکس زیر متن و وسط چین */
+        margin: 20px auto 0;
     }
 
     .method ul {
         font-size: 14px;
         line-height: 1.8;
-        text-align: left; /* مرتب بودن لیست */
-        max-width: 500px; /* عرض مناسب */
-        margin: 20px auto; /* وسط چین کل لیست */
-        padding-left: 20px; /* فاصله اولیه برای بولت */
+        text-align: left; 
+        max-width: 500px; 
+        margin: 20px auto; 
+        padding-left: 20px; 
     }
 
     .method ul li {
-        margin-bottom: 12px; /* فاصله ردیف‌ها */
+        margin-bottom: 12px; 
     }
 }
 
@@ -482,3 +480,18 @@ color:#2a7de1;
   }
 
 }
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #355872;
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #7AAACE;
+}
+
+
