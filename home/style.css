@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* section2 Header */
+.section2 {
+    height: screen;
+}
+
+.header {
+    padding: 4rem 0px;
+}
+
+.textHeader {
+    color: #2f85c7;
+    font-size: 60px;
+}
+
+.textPara {
+    padding-top: 10px;
+}
+
+.btn1 {
+    padding: 10px;
+    width: 15rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-f {
+    background-color: #2f85c7;
+    color: white;
+    border: 2px solid #2f85c7;
+    transition: 2ms ease-out;
+}
+
+.btn-f:hover {
+    background-color: #7aacce;
+    border-color: transparent;
+}
+
+.btn-s {
+    background-color: white;
+    transition: 2ms ease-out;
+    border: 2px solid #2f85c7;
+}
+
+.btn-s:hover {
+    border-color: #7aacce;
+
+}
+
+.img {
+    padding-top: 4rem;
+    padding-left: 12px;
+    width: 29rem;
+}
+
+/* section3 */
+.section3 {
+    height: screen;
+    padding-top: 3rem;
+}
+
+.img2 {
+    border-radius: 50%;
+    padding-top: 4rem;
+}
+
+.buttonDesign li::marker {
+    color: #dc233f;
+}
+
+.Img1 {
+    width: 30rem;
+    border: 2px #7aacce solid;
+    border-radius: 50%;
+}
+
+.col2 {
+    padding-top: 4rem;
+}
+
+.col2 h1 {
+    font-size: 3rem;
+    color: #dc233f;
+}
+
+.col2 p {
+    font-size: 20px;
+}
+
+/* section4 */
+.section4 {
+    background-color: #eaf5ff;
+    margin-top: 4rem;
+    padding: 4rem 4rem;
+}
+
+.section4Header {
+    text-align: center;
+    color: #dc233f
+}
+
+.section4Para {
+    text-align: center;
+}
+
+.btn0 {
+    background-color: #2f85c7;
+    border-radius: 10px;
+    padding: 10px 75px;
+    color: white;
+    text-decoration: none;
+    transition: 5ms ease-in-out;
+}
+
+.btn0:hover {
+    background-color: #7aacce;
+}
+
+.classes2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section5 */
+
+.section5 {
+    background-image: url('../image/woman.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* مهم */
+}
+
+.section5Opacity {
+    position: absolute;
+    /* مهم */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.section5Body {
+    text-align: center;
+    color: white;
+    z-index: 1000;
+    position: relative;
+    padding-top: 8rem;
+}
+
+.section5Header {
+    color: #7aacce;
+    font-size: 4rem;
+}
+
+.section5Para {
+    font-size: 1.6rem;
+    padding-top: 14px;
+}
+
+/* section6 */
+.section6 {
+    background-color: #7aacce;
+    padding: 2rem;
+    color: white;
+}
+
+.headerSection6 {
+    font-size: 3rem;
+}
+
+.paraSection6 {
+    font-size: 20px;
+}
+
+/* section7 */
+.section7 {
+    margin-top: 4rem;
+}
+
+.col3 {
+    padding-top: 5rem;
+}
+
+.col3Header {
+    font-size: 3rem;
+    color: #7aacce;
+}
+
+.col3Para {
+    font-size: 20px;
+}
+
+/* section8*/
+.col4 {
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.col4 h1 {
+    color: #dc233f;
+}
+
+.col4 p {
+    font-size: 16px;
+}
+
+.btn-first {
+    padding: 10px 90px;
+    border: none;
+    background-color: #dc233f;
+    color: white;
+    border-radius: 10px;
+    transition: ease-in-out inherit 2ms transform;
+
+}
+
+.btn-first:hover {
+    background-color: #7aacce;
+    transform: scale(1.04);
+}
+
+.col .col4para {
+    font-size: 2rem;
+}
+
+/* section9 */
+.section9 {
+    background-color: #7aacce;
+    margin-top: 3rem;
+    height: 24rem;
+}
+
+/* footer */
+/* کل فوتر */
+.footer {
+    background: #111;
+    color: #fff;
+}
+
+/* فاصله کمتر */
+.section9 {
+    padding: 30px 20px;
+    /* قبلاً زیاد بود */
+}
+
+/* کانتینر */
+.footerContainer {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    /* کمتر شد */
+}
+
+/* متن‌ها */
+.footerBox h2,
+.footerBox h3 {
+    margin-bottom: 10px;
+}
+
+.footerBox p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.footerBox ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footerBox ul li {
+    margin-bottom: 6px;
+    /* کمتر */
+}
+
+.footerBox ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* دکمه */
+.donateBtn {
+    margin-top: 8px;
+    padding: 8px 16px;
+    background: #dc233f;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+/* پایین فوتر */
+.footerBottom {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    border-top: 1px solid #fff;
+    color: #aaa;
+    background-color: #fff;
+}
+
+.card {
+    transition: transform 0.4s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
