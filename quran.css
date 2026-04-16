@@ -10,8 +10,6 @@ body{
     color:#333;
 }
 
-/* NAVBAR */
-/* ================= NAVBAR ================= */
 .nav-item .nav-link {
   text-decoration: none;
   color: black;
@@ -29,7 +27,7 @@ body{
   background: #355872;
   color: white;
   padding: 12px 28px;
-  border-radius: 50px; /* 👈 بیضوی */
+  border-radius: 50px;
   text-decoration: none;
   font-weight: 500;
   transition: 0.3s;
@@ -49,12 +47,11 @@ body{
   background: white;
 }
 
-/* hover */
 .donate-btn:hover {
   background: #7AAACE;
   transform: scale(1.05);
 }
-/* HERO */
+
 .hero{
     display:flex;
     align-items:center;
@@ -88,7 +85,6 @@ body{
     border-radius:50%;
 }
 
-/* CLOUD */
 .cloud{
     height:100px;
     background:white;
@@ -96,7 +92,6 @@ body{
     margin-top:-40px;
 }
 
-/* WHY CHOOSE */
 .why{
     padding:80px 10%;
     text-align:center;
@@ -122,7 +117,6 @@ body{
     margin-bottom:10px;
 }
 
-/* METHOD */
 .method{
     display:flex;
     align-items:center;
@@ -198,7 +192,7 @@ body{
 .card-content p {
   font-size: 15px;
   color: #444;
-  margin-bottom: 30px; /* فاصله بیشتر زیر پاراگراف */
+  margin-bottom: 30px; 
 }
 
 .card-content button {
@@ -217,11 +211,6 @@ body{
   color: white;
   border-color: #3b82a0;
 }
-
-
-
-
-/* METHOD */
 
 #course-details-page .method{
 display:flex;
@@ -244,12 +233,8 @@ margin-top:20px;
 line-height:2;
 }
 
-/* ========================= */
-/* 📱 MOBILE RESPONSIVE */
-/* ========================= */
 @media (max-width: 768px) {
 
-  /* ===== NAVBAR ===== */
   .navbar {
     padding: 15px 5%;
     flex-direction: row;
@@ -257,12 +242,12 @@ line-height:2;
   }
 
   .logo {
-    order: 1; /* سمت چپ */
+    order: 1; 
   }
 
   .hamburger {
     display: block;
-    order: 2; /* سمت راست */
+    order: 2; 
   }
   .menu {
     position: absolute;
@@ -287,7 +272,6 @@ line-height:2;
     display: none;
   }
 
-  /* ===== HERO ===== */
   .hero {
     flex-direction: column;
     text-align: center;
@@ -319,41 +303,38 @@ line-height:2;
     height: 230px;
   }
 
-/* ===== METHOD MOBILE ===== */
 @media (max-width: 768px) {
     .method {
-        flex-direction: column; /* متن بالای عکس */
+        flex-direction: column; 
         text-align: center;
         padding: 40px 5%;
     }
 
     .method-left,
     .method-right {
-        width: 100%; /* هر دو کل عرض را بگیرند */
+        width: 100%; 
     }
 
     .method-right img {
         display: block;
         width: 90%;
         height: auto;
-        margin: 20px auto 0; /* عکس زیر متن و وسط چین */
+        margin: 20px auto 0; 
     }
 
     .method ul {
         font-size: 14px;
         line-height: 1.8;
-        text-align: left; /* مرتب بودن لیست */
-        max-width: 500px; /* عرض مناسب */
-        margin: 20px auto; /* وسط چین کل لیست */
-        padding-left: 20px; /* فاصله اولیه برای بولت */
+        text-align: left; 
+        max-width: 500px; 
+        margin: 20px auto; 
+        padding-left: 20px; 
     }
 
     .method ul li {
-        margin-bottom: 12px; /* فاصله ردیف‌ها */
+        margin-bottom: 12px; 
     }
 }
-
-  /* ===== WHY / BOXES ===== */
   .why {
     padding: 40px 5%;
   }
@@ -367,7 +348,6 @@ line-height:2;
     text-align: center;
   }
 
-  /* ===== CARDS ===== */
   .cards-wrapper {
     flex-direction: column;
     align-items: center;
@@ -384,8 +364,6 @@ line-height:2;
   }
 
 }
-
-* BUTTON */
 
 .btn{
 background:#2a7de1;
@@ -417,7 +395,6 @@ color:#2a7de1;
   background: #7AAACE;
 }
 
-/* ================= DESKTOP FIX ================= */
 @media (min-width: 992px) {
 
   .hero {
@@ -439,61 +416,76 @@ color:#2a7de1;
     grid-template-columns: repeat(3, 1fr);
   }
 }
-/* ================= FOOTER ================= */
-.footer {
-  background: #111;
-  color: #fff;
-}
-
 .section9 {
-  padding: 40px 20px;
+    background-color: #7aacce;
+    margin-top: 3rem;
+    height: 24rem;
 }
 
+/* footer */
+/* کل فوتر */
+.footer {
+    background: #111;
+    color: #fff;
+}
+
+/* فاصله کمتر */
+.section9 {
+    padding: 30px 20px;
+    /* قبلاً زیاد بود */
+}
+
+/* کانتینر */
 .footerContainer {
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    /* کمتر شد */
 }
 
+/* متن‌ها */
 .footerBox h2,
 .footerBox h3 {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .footerBox p {
-  font-size: 14px;
-  line-height: 1.6;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
 }
 
 .footerBox ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .footerBox ul li {
-  margin-bottom: 6px;
+    margin-bottom: 6px;
+    /* کمتر */
 }
 
 .footerBox ul li a {
-  color: #fff;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
+/* دکمه */
 .donateBtn {
-  margin-top: 10px;
-  padding: 8px 16px;
-  background: #355872;
-  border: none;
-  color: #fff;
-  border-radius: 50px;
+    margin-top: 8px;
+    padding: 8px 16px;
+    background: #355872;
+    border: none;
+    color: white;
+    border-radius: 4px;
 }
-
 .footerBottom {
-  text-align: center;
-  padding: 12px;
-  font-size: 14px;
-  background: #fff;
-  color: #333;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    border-top: 1px solid #fff;
+    color: #aaa;
+    background-color: #fff;
 }
