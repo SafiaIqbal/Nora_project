@@ -6,6 +6,49 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+.nav-item .nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.nav-item .nav-link:hover {
+    color: #355872;
+    transition: 0.2s;
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: white;
+}
+
+.donate-btn {
+    background: #355872;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 50px;
+    /* 👈 بیضوی */
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.donate-btn i {
+    color: white;
+    font-size: 15px;
+}
+
+/* hover */
+.donate-btn:hover {
+    background: #7AAACE;
+    transform: scale(1.05);
+}
 
 /* section2 Header */
 .section2 {
@@ -44,6 +87,9 @@ body {
     border-color: transparent;
 }
 
+.btn-s a {
+    color: #2f85c7;
+}
 .btn-s {
     background-color: white;
     transition: 2ms ease-out;
@@ -59,6 +105,7 @@ body {
     padding-top: 4rem;
     padding-left: 12px;
     width: 29rem;
+
 }
 
 /* section3 */
@@ -303,8 +350,6 @@ body {
     color: white;
     border-radius: 4px;
 }
-
-/* پایین فوتر */
 .footerBottom {
     text-align: center;
     padding: 10px;
@@ -320,4 +365,221 @@ body {
 
 .card:hover {
     transform: scale(1.05);
+}
+@media (max-width: 992px) {
+    .header {
+        text-align: center;
+    }
+
+    .textHeader {
+        font-size: 28px;
+    }
+
+    .textPara {
+        font-size: 14px;
+    }
+
+    .header div {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 992px) {
+    .card {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .col2 {
+        text-align: center;
+    }
+
+    .img2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .imagePart {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .col3 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .col4 {
+        text-align: center;
+    }
+
+    .btn-first {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .footerContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .donate-btn {
+        display: none !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .textHeader {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .textPara {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .header {
+        text-align: center;
+        padding: 2rem 10px;
+    }
+
+    .img {
+        width: 100% !important;
+        padding: 0;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .col2 {
+        text-align: center;
+    }
+
+    .Img1 {
+        width: 100%;
+    }
+
+    .col2 h1 {
+        font-size: 28px;
+    }
+
+    .col2 p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .section4 {
+        padding: 2rem 1rem;
+    }
+
+    .btn0 {
+        padding: 10px 30px;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 768px) {
+    .section5Header {
+        font-size: 28px;
+    }
+
+    .section5Para {
+        font-size: 16px;
+    }
+
+    .section5Body {
+        padding-top: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .headerSection6 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .paraSection6 {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .col3 {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .col3Header {
+        font-size: 26px;
+    }
+
+    .col3Para {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .col4 {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .btn-first {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .col .col4para {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px) {
+    .section9 {
+        height: auto;
+    }
+
+    .footerContainer {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100% !important;
+    }
 }
