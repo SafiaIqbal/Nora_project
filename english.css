@@ -472,30 +472,27 @@ color:#2a7de1;
     height: 24rem;
 }
 
-/* footer */
-/* کل فوتر */
 .footer {
     background: #111;
     color: #fff;
 }
 
-/* فاصله کمتر */
 .section9 {
     padding: 30px 20px;
-    /* قبلاً زیاد بود */
+    
 }
 
-/* کانتینر */
+
 .footerContainer {
     max-width: 1200px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
-    /* کمتر شد */
+   
 }
 
-/* متن‌ها */
+
 .footerBox h2,
 .footerBox h3 {
     margin-bottom: 10px;
@@ -514,7 +511,7 @@ color:#2a7de1;
 
 .footerBox ul li {
     margin-bottom: 6px;
-    /* کمتر */
+  
 }
 
 .footerBox ul li a {
@@ -522,7 +519,7 @@ color:#2a7de1;
     text-decoration: none;
 }
 
-/* دکمه */
+
 .donateBtn {
     margin-top: 8px;
     padding: 8px 16px;
