@@ -46,13 +46,20 @@ body{
   font-size: 15px;
 }
 
-/* hover */
+
 .donate-btn:hover {
   background: #7AAACE;
   transform: scale(1.05);
 }
 
-/* HERO */
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:80px 10%;
+    background:#eaf5ff;
+    margin-top: 60px;
+}
 .hero{
     display:flex;
     align-items:center;
