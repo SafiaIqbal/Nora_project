@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+.nav-item .nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.nav-item .nav-link:hover {
+    color: #355872;
+    transition: 0.2s;
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: white;
+}
+
+.donate-btn {
+    background: #355872;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.donate-btn i {
+    color: white;
+    font-size: 15px;
+}
+
+/* hover */
+.donate-btn:hover {
+    background: #7AAACE;
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+.contact {
+  max-width: 1100px;
+  margin: 100px auto;
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+}
+.info i {
+  color: #355872;
+  margin-right: 8px;
+  font-size: 18px;
+}
+.message{
+  color: #25455d;
+  font-size: 20px;
+}
+.contact-left,
+.contact-right {
+  flex: 1;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+.contact-left h1 {
+  color: #355872;
+}
+.info p {
+  margin: 10px 0;
+}
+
+.info a {
+  color: #355872;
+  text-decoration: none;
+}
+
+.contact-right form input,
+.contact-right form textarea {
+  width: 100%;
+  padding: 10px;
+  display: block;
+  border-radius: 10px;
+  border: 2px solid gray;
+  margin-bottom: 20px;   /* ✅ space between fields */
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  display: block;
+  border-radius: 10px;
+  border: 2px solid gray;
+  margin-bottom: 20px;  
+}
+
+.submit {
+  width: 100%;
+  padding: 10px;
+  background: #355872;
+  color: white;
+  border: none;
+  border-radius:20px;
+    margin-top: 15px;
+}
+
+.submit:hover {
+  background: #7AAACE;
+}
+
+.footerBottom {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    border-top: 1px solid #fff;
+    color: #aaa;
+    background-color: #fff;
+}
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+  }
+  header{
+    text-align:center;
+  }
+}
